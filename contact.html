@@ -8,7 +8,7 @@
     <script>
       var emailMe = function(event) {
         event.preventDefault();
-        var link = "crishyashi@gmail.com"
+        var link = "mailto:crishyashi@gmail.com"
         var subject = "?subject=" + document.getElementById("name").value + " - " + document.getElementById("subject").value
         var body = "&body=" + document.getElementById("message").value
         window.location.href = link + subject + body;
